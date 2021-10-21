@@ -1,0 +1,63 @@
+{
+  "name": "Tacan",
+  "short_name": "Tacan",
+  "icons": [
+    {
+      "src": "/assets/icon/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon/maskable-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icon/maskable-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1c2120",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#c02428",
+  "shortcuts": [
+    {
+      "name": "3-4 player",
+      "short_name": "3-4 player",
+      "description": "Generate a 3-4 player board",
+      "url": "/?size=regular",
+      "icons": [
+        {
+          "src": "/assets/icon/shortcut-regular-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "5-6 player",
+      "short_name": "5-6 player",
+      "description": "Generate a 5-6 player board",
+      "url": "/?size=large",
+      "icons": [
+        {
+          "src": "/assets/icon/shortcut-large-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
